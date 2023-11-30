@@ -46,14 +46,14 @@ a:hover {
 .hero_main {
     display: grid;
     height: 45vh;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.3fr 1fr;
 }
 
 .main1 {
     display: flex;
     align-items: center;
     justify-content: end;
-    font-size: 1.3em;
+    font-size: 1.5em;
     color: #6e6e73;
 }
 
@@ -95,18 +95,46 @@ a:hover {
 }
 
 .page1 {
-    padding: 7% 0 0 5%;
+    padding: 7% 0 0 8%;
 }
 
 .page1 h2 {
+    font-size: 1.5em;
     color: #6e6e73;
+}
+.page1_gallery {
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
 }
 
 .container1 {
-    background-image: url(images/airpods.png);
-    
-    width: 350px;
-    aspect-ratio: 1/1.6;
+    background-image: url(images/15promax.JPEG);
+    background-size: cover;
+    box-sizing: border-box;
+    width: 480px;
+    height: 480px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+
+.container2 {
+    background-image: url(images/watch.JPEG);
+    background-size: cover;
+    box-sizing: border-box;
+    width: 480px;
+    height: 480px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+
+.container3 {
+    background-image: url(images/macbook-pro-.JPEG);
+    background-size: cover;
+    box-sizing: border-box;
+    width: 480px;
+    height: 480px;
     border: 1px solid lightgray;
     border-radius: 20px;
 }
