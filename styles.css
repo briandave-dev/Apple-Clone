@@ -32,7 +32,7 @@ a:hover {
 
 .hero_main {
     display: grid;
-    height: 35vh;
+    height: 45vh;
     grid-template-columns: 1fr 1fr;
 }
 
@@ -63,6 +63,11 @@ a:hover {
     display: flex;
 }
 
+.hero_gallery img {
+    width: 50%;
+    aspect-ratio: 1.6/1;
+}
+
 .logo {
     display: flex;
     flex-direction: column;
@@ -71,6 +76,7 @@ a:hover {
 }
 .logo p {
     padding-top: 5%;
+    font-size: .85em;
 }
 
 @media screen and (max-width: 768px) {
