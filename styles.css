@@ -54,6 +54,25 @@ a:hover {
     padding-top: 2%;
 }
 
+
+.red {
+    color: red;
+}
+
+.hero_gallery {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo p {
+    padding-top: 5%;
+}
+
 @media screen and (max-width: 768px) {
     nav {
         display: flex;
@@ -68,7 +87,7 @@ a:hover {
         height: 20vh;
     }
     .main1 {
-        padding: 0 1em;
+        padding: 0 10%;
         justify-content: flex-start;
         align-items: center;
         font-size: .75em;
@@ -76,8 +95,7 @@ a:hover {
     .main2 {
         display: none;
     }
-}
-
-.red {
-    color: red;
+    .hero_gallery {
+        overflow-x: scroll;
+    }
 }
