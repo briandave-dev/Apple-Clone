@@ -104,9 +104,8 @@ a:hover {
 }
 .page1_gallery {
     padding-top: 3%;
-    display: flex;
-    justify-content: space-between;
     overflow-x: scroll;
+    display: inline-flex;
 }
 
 .container1 {
@@ -117,6 +116,7 @@ a:hover {
     height: 480px;
     border: 1px solid lightgray;
     border-radius: 20px;
+    overflow-x: scroll;
 }
 
 .container2 {
@@ -127,6 +127,8 @@ a:hover {
     height: 480px;
     border: 1px solid lightgray;
     border-radius: 20px;
+    overflow-x: scroll;
+
 }
 
 .container3 {
@@ -137,6 +139,27 @@ a:hover {
     height: 480px;
     border: 1px solid lightgray;
     border-radius: 20px;
+    overflow-x: scroll;
+
+}
+
+.content {
+    padding: 2em 0 0 2em;
+    background-color: transparent;
+}
+
+.first {
+    color: gray;
+    background-color: transparent;
+
+}
+.second {
+    padding: .5em 0;
+    font-weight: bold;
+    color: black;
+    font-size: 1.2em;
+    background-color: transparent;
+
 }
 
 @media screen and (max-width: 768px) {
