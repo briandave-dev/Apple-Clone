@@ -1,0 +1,17 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: lightgrey;
+    height: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: .75em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
