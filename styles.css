@@ -94,11 +94,29 @@ a:hover {
     font-size: .85em;
 }
 
+.page1 {
+    padding: 7% 0 0 5%;
+}
+
+.page1 h2 {
+    color: #6e6e73;
+}
+
+.container1 {
+    background-image: url(airpods.png);
+    
+    width: 350px;
+    aspect-ratio: 1/1.6;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+
 @media screen and (max-width: 768px) {
     nav {
         display: flex;
         justify-content: space-between;
         overflow-x: scroll;
+        height: 60px;
     }
     nav a {
         padding: 0 1em;
