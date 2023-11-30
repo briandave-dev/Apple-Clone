@@ -61,10 +61,11 @@ a:hover {
 
 .hero_gallery {
     display: flex;
+    justify-content: space-between;
 }
 
 .hero_gallery img {
-    width: 50%;
+    width: 100px;
     aspect-ratio: 1.6/1;
 }
 
@@ -104,4 +105,5 @@ a:hover {
     .hero_gallery {
         overflow-x: scroll;
     }
+
 }
