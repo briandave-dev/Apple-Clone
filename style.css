@@ -49,6 +49,13 @@ header {
           backdrop-filter: saturate(180%) blur(20px);
 }
 
+@media screen and (max-width: 640px) {
+  header {
+    display: none;
+  }
+}
+
+
 header ul {
   height: 100%;
   width: 100%;
